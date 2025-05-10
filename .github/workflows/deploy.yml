@@ -1,15 +1,15 @@
-name: Deploy Vite site to GitHub Pages
+name: Deploy Vite Site to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main]  # Trigger deploy on push to main
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout Code
         uses: actions/checkout@v3
 
       - name: Setup Node.js
@@ -17,16 +17,21 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: npm install
         working-directory: frontend
 
-      - name: Build site
+      - name: Build Project
         run: npm run build
         working-directory: frontend
+
+      - name: Copy 404.html for SPA fallback
+        run: cp frontend/dist/index.html frontend/dist/404.html
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: frontend/dist
+          clean: true
+          single-commit: true
