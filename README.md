@@ -28,7 +28,7 @@ Explore movies, search by title, and save your favorites — all built using Rea
 
 ---
 
-##📚 What You'll Learn
+## 📚 What You'll Learn
 Structuring React apps with reusable components
 
 Managing state across pages using Context API
