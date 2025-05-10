@@ -1,8 +1,8 @@
-![HomePage](https://github.com/user-attachments/assets/a3e31376-b56b-4bd4-a77c-364d551d637e)![HomePage](https://github.com/user-attachments/assets/1cbc7294-248b-4f77-9a36-ed554ddd2409)![HomePage](https://github.com/user-attachments/assets/83d92eba-4283-40da-a704-c7bb13d832b9)# 🎬 FlickFinder – A React Movie Discovery App
+# 🎬 FlickFinder – A React Movie Discovery App
 
 Explore movies, search by title, and save your favorites — all built using React and The Movie Database (TMDB) API. This project showcases practical frontend skills, component architecture, and real-world API integration.
 
-![screenshot](./screenshot.png)
+![HomePage](https://github.com/user-attachments/assets/a3e31376-b56b-4bd4-a77c-364d551d637e)
 
 ---
 
