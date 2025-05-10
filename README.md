@@ -26,9 +26,6 @@ Explore movies, search by title, and save your favorites — all built using Rea
 - **CSS3**
 - **JavaScript (ES6+)**
 
-🎥 Demo
-👉 Live Demo
-
 
 📚 What You'll Learn
 Structuring React apps with reusable components
