@@ -41,6 +41,10 @@ Styling with CSS for responsive layouts
 
 
 ---
+## 📸 Live Demo
+👉 https://azeidan11.github.io/FlickFinder/
+
+---
 
 ## 🛠️ Getting Started
 
